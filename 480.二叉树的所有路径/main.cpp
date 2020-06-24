@@ -47,7 +47,7 @@ public:
                 res.push_back(to_string(root->val)+"->"+rightString[i]);
             }
         }
-        
+                
         return res;
     }
 };

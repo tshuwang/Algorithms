@@ -24,7 +24,6 @@ public:
         vector<vector<int>> res;
         vector<int> path;
         dfs(root,res,path,0,target);
-        
         return res;
     }
     
