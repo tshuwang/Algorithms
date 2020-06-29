@@ -1,0 +1,2 @@
+求和为target的路径和
+思路：利用dfs递归 每一次记录一条path 将val放到path中直到有叶子结点判断和是否为terget。 不符合就将val删除并减去val的值
